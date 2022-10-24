@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.areafruits{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+.area-vegetables{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+}
+img{
+    width:10%;
+    height: 100px;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+#items{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
